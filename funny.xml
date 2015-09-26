@@ -1,9 +1,13 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="27" x="184" y="63">
-    <next>
-      <block type="oled_drawtext" id="36">
-        <field name="TEXT">winston</field>
+  <block type="controls_if" id="131" inline="false" x="208" y="141">
+    <statement name="DO0">
+      <block type="oled_cleardisplay" id="27">
+        <next>
+          <block type="oled_drawtext" id="36">
+            <field name="TEXT">winston</field>
+          </block>
+        </next>
       </block>
-    </next>
+    </statement>
   </block>
 </xml>
