@@ -1,11 +1,16 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="131" inline="false" x="208" y="141">
-    <value name="IF0">
-      <block type="math_number" id="166">
-        <field name="NUM">1</field>
+  <block type="oled_setcursor" id="238" inline="true" x="128" y="47">
+    <value name="STARTX">
+      <block type="math_number" id="292">
+        <field name="NUM">10</field>
       </block>
     </value>
-    <statement name="DO0">
+    <value name="STARTY">
+      <block type="math_number" id="307">
+        <field name="NUM">10</field>
+      </block>
+    </value>
+    <next>
       <block type="oled_cleardisplay" id="27">
         <next>
           <block type="oled_drawtext" id="36">
@@ -13,6 +18,6 @@
           </block>
         </next>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
