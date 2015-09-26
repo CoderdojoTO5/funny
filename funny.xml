@@ -9,8 +9,8 @@
     <statement name="DO">
       <block type="oled_setcursor" id="238" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="292">
-            <field name="NUM">10</field>
+          <block type="sensor_light" id="400">
+            <field name="LIGHT">RIGHT</field>
           </block>
         </value>
         <value name="STARTY">
@@ -29,8 +29,5 @@
         </next>
       </block>
     </statement>
-  </block>
-  <block type="math_number" id="307" x="328" y="79">
-    <field name="NUM">10</field>
   </block>
 </xml>
