@@ -1,1 +1,9 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="oled_cleardisplay" id="27" x="184" y="63">
+    <next>
+      <block type="oled_drawtext" id="36">
+        <field name="TEXT">winston</field>
+      </block>
+    </next>
+  </block>
+</xml>
